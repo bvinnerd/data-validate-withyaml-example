@@ -1,0 +1,12 @@
+---
+something:
+  foo:
+    type: required
+    min: 1
+    max: 4
+  severity:
+    type: required
+    enum:
+      - info
+      - warn
+      - error
